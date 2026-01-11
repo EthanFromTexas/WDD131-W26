@@ -1,0 +1,40 @@
+body{
+    font-size: 20px;
+    text-align: left;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+
+}
+h2{
+    color: lightskyblue;
+    font-size: smaller;
+    font-family: helvetica;
+    text-align: center;
+}
+.line{
+    border-top: 1px solid lightgray;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.firstpart{
+    line-height: 1.5;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.italicpart{
+    font-style: italic;
+    max-width: 50%;
+    margin: 0 auto;
+}
+ol{
+    line-height: 1.5;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+.logo{
+    text-align: center;
+}
