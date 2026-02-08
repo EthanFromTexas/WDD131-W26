@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    text-align: right;
+    padding: 15px;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    margin-bottom: 45px;
+
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(165, 1, 1);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+}
+
+footer{
+    border-top: 2px solid gold;
+    text-align: center;
+}
+
+.stats{
+    text-align: right;
+    padding-right: 40px;
+    border-top: 2px solid gold;
+}
+
+.book{
+    text-align: center;
+}
+h2{
+    color: rgb(165, 1, 1);
+    text-align: left;
+    margin-left: 45px;
+}
+.description{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+}
+.date{
+    font-style: italic;
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    main{
+        grid-template-columns: 1fr 2fr;
+    }
+    .stats{
+    border-right: 2px solid gold;
+    border-top: 0px solid gold;
+    text-align: center;
+    }
+}
