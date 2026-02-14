@@ -8,6 +8,7 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="blog.css" rel="stylesheet">
+    <script src="blog.js" defer></script>
     <title>Blog</title>
 </head>
 
@@ -20,7 +21,15 @@
             <a href="#">Search</a>
         </nav>
     </header>
-    <main>
+
+    <main id="main-content" role="main">
+        <section id="article-list" aria-label="Article Reviews">
+
+        </section>
+
+    </main>
+<!-- Old code \/
+<main>
         <div class="stats">
             <p class="date">July 5, 2022</p>
             <p>10-14</p>
@@ -36,11 +45,12 @@
 
         </div>
     </main>
+-->
 
-
-        <footer>
-            <p>Jane Doe</p>
-        </footer>
+    <footer>
+        <p>Jane Doe</p>
+    </footer>
 </body>
 
 </html>
+

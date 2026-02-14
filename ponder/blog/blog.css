@@ -15,7 +15,7 @@ nav a{
     text-decoration: none;
     color: rgb(165, 1, 1);
 }
-main{
+.article{
     display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 20px;
@@ -54,7 +54,7 @@ h2{
 
 
 @media screen and (min-width: 700px) {
-    main{
+    .article{
         grid-template-columns: 1fr 2fr;
     }
     .stats{
