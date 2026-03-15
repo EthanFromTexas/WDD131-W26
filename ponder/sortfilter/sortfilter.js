@@ -99,3 +99,4 @@ function searchTraits(item){
 }
 
 console.log(filteredTraits);
+
