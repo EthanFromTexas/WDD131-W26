@@ -31,7 +31,7 @@ const gameboxdata = [
         decisionnum: 3,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 12",
+        text: "decision 111",
         choice1: 0,
         choice2: 0
     },
@@ -92,23 +92,29 @@ let sceneplaceholder = 0;
 
 function showscene(sceneid) {
 
-    sceneplaceholder = sceneid;
 
-    const currentscene = gameboxdata[sceneid];
+    const currentscene = sceneid;
+
+    sceneplaceholder = gameboxdata.indexOf(sceneid);
 
     boxtext.textContent = currentscene.text;
     boximage.innerHTML = `<img src="${currentscene.imgSrc}" alt="${currentscene.imgAlt}">`;
 }
 
+let choice = 0;
+
+function findscene(scene){
+    return scene.decisionnum == choice;
+}
 
 b1.addEventListener('click', function () {
-    const nextscene = gameboxdata[sceneplaceholder].choice1;
-    showscene(nextscene);
+    choice = gameboxdata[sceneplaceholder].choice1;
+    showscene(gameboxdata.find(findscene));
 });
 
 b2.addEventListener('click', function () {
-    const nextscene = gameboxdata[sceneplaceholder].choice2;
-    showscene(nextscene);
+    choice = gameboxdata[sceneplaceholder].choice2;
+    showscene(gameboxdata.find(findscene));
 });
 
-showscene(0);
+showscene(gameboxdata[0]);
