@@ -4,7 +4,7 @@ const gameboxdata = [
         decisionnum: 0,
         imgSrc: "images/johndoe.png",
         imgAlt: "An eggplant man",
-        text: "Is this thing even working?",
+        text: "This is John. He unfortunately he got turned into an eggplant by a wizard just earlier today and has no clue on where to go or what to do with his life now. The wizard, being extra cruel, also teleported him in the middle of a vast dark forest. Infront of John there is a clearing in the trees up ahead. Behind John the forest gets deeper and darker. Should John go forwards to the opening or backwards deeper into the woods? Option 1 - Go fowards. Option 2 - Go backwards.",
         choice1: 1,
         choice2: 8
     },
@@ -13,7 +13,7 @@ const gameboxdata = [
         decisionnum: 1,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 1",
+        text: "Imagine John walked into a clearing that streches far East and West. Option 1 - Go West. Option 2 - Go East.",
         choice1: 2,
         choice2: 5
     },
@@ -22,7 +22,7 @@ const gameboxdata = [
         decisionnum: 2,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 11",
+        text: "John see's a tower streching far into the sky and a beautiful lake. Option 1 - Go to the tower. Option 2 - Go to the lake.",
         choice1: 3,
         choice2: 4
     },
@@ -31,7 +31,7 @@ const gameboxdata = [
         decisionnum: 3,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 111",
+        text: "Tower placeholder",
         choice1: 0,
         choice2: 0
     },
@@ -40,7 +40,7 @@ const gameboxdata = [
         decisionnum: 4,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 112",
+        text: "Lake placeholder",
         choice1: 0,
         choice2: 0
     },
@@ -49,7 +49,7 @@ const gameboxdata = [
         decisionnum: 5,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 12",
+        text: "John headed to the far East until sees the end of the forest, but he also sees a hut almost hidden in the forest to the off to the side. Option 1 - Go to the hut. Option 2 - Go to the end of the forest.",
         choice1: 6,
         choice2: 7
     },
@@ -58,25 +58,25 @@ const gameboxdata = [
         decisionnum: 6,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 121",
+        text: "hut placeholder",
         choice1: 0,
         choice2: 0
     },
-    // Lake 
+    // End of Forest
     {
         decisionnum: 7,
         imgSrc: "images/johndoe.png",
         imgAlt: "placeholder",
-        text: "decision 122",
+        text: "End of the forest placeholder",
         choice1: 0,
         choice2: 0
     },
     // choice 2
     {
         decisionnum: 8,
-        imgSrc: "images/johndoe.png",
+        imgSrc: "images/deeperanddarker.png",
         imgAlt: "placeholder",
-        text: "You ran into a giant monster to scary to describe. Your Dead. Choose either button to restart.",
+        text: "John ran into a giant monster to scary to describe. You Died. Choose either button to restart.",
         choice1: 0,
         choice2: 0
     }
