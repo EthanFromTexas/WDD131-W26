@@ -23,6 +23,10 @@ header, footer {
 .main{
     text-align: center;
     
+    
+}
+.gamebox{
+    background-color: #a42212;
 }
 p {
   font-family: Lato, Helvetica, sans-serif;
@@ -30,11 +34,11 @@ p {
   padding: 1em;
 }
 #imagebox {
-    width: 600px;
+    width: 400px;
     height: 400px;
     border: 3px solid black;
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 #imagebox img {
     max-width: 100%;
