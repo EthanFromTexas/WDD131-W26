@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=MedievalSharp");
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "MedievalSharp";
+  color:  #A349A4;
+}
+
+header, footer {
+    font-family: "MedievalSharp";
+    background-color: #A349A4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.main{
+    text-align: center;
+    
+}
+p {
+  font-family: Lato, Helvetica, sans-serif;
+  color: black;
+  padding: 1em;
+}
+#imagebox {
+    width: 600px;
+    height: 400px;
+    border: 3px solid black;
+    display: block;
+    margin: 10px auto;
+}
+#imagebox img {
+    max-width: 100%;
+    max-height: 100%;
+}
+button{
+    margin: 10px;
+}
